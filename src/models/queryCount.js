@@ -17,7 +17,7 @@ var QueryCount = sequelize.define('querycount', {
 
 
 
-QueryCount.sync({force: true})
+QueryCount.sync({force: true}) // use for first time alone to create.
 
 module.exports = {
   QueryCount

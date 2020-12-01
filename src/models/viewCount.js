@@ -16,7 +16,7 @@ var ViewCount = sequelize.define('viewcount', {
 });
 
 
-ViewCount.sync({force: true})
+ViewCount.sync({force: true}) 
 
 
 module.exports = {
