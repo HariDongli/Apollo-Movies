@@ -6,7 +6,10 @@
 4. open url http://localhost:8000/graphql in the browser.
 
 
-
+Pending:
+Add pagination
+-> movies api is not allowing to limit the items.
+-> TODO - add pagination.
 
 #query
 
