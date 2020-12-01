@@ -7,7 +7,10 @@ const movieType = gql`
     original_language: String
     backdrop_path:String
   }
-
+  type Movies {
+    movie:[Movie]
+    searchCount: Int
+  }
   type MovieDetail {
     id: Int!
     title: String
