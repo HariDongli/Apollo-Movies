@@ -1,4 +1,4 @@
-const Sequelize  = require("Sequelize");
+const Sequelize  = require("sequelize");
 var sequelize = new Sequelize('sql12379567', 'sql12379567', '1fMBhG81nW', {
     host: 'sql12.freemysqlhosting.net',
     dialect: 'mysql',

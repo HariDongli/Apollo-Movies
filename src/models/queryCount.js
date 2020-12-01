@@ -1,4 +1,4 @@
-const Sequelize  = require("Sequelize");
+const Sequelize  = require("sequelize");
 const sequelize = require("../config/sqlInit").sequelize;
 
 var QueryCount = sequelize.define('querycount', {
