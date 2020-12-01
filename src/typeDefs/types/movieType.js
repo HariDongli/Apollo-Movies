@@ -18,6 +18,7 @@ const movieType = gql`
     status: String
     vote_average: String
     revenue: Int
+    viewCount: Int
   }
 `;
 
