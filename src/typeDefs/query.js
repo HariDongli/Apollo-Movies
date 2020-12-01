@@ -2,7 +2,8 @@ const { gql } = require("apollo-server-express");
 
 const query = gql`
   type Query {
-    movies: [Movie]
+    movies(keyword: String, page: Int): [Movie]
+    movieDetail(id: ID!): MovieDetail
   }
 `;
 
